@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         template: '%s | Audiscribe', 
         default: 'Audiscribe' 
     },
-    description: 'Free AI-powered transcription tool with speaker recognition, time-synced navigation, and polished document exports. Intuitive, fast, and private.',
+    description: 'Free AssemblyAI-powered transcription tool with speaker recognition, time-synced navigation, and polished document exports. Intuitive, fast, and private.',
     icons: {
         icon: [
             { url: '../app/favicon.ico', sizes: '48x48' }, 
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: 'Audiscribe',
-        description: 'Free AI-powered transcription tool with speaker recognition, time-synced navigation, and polished document exports. Intuitive, fast, and private.',
+        description: 'Free AssemblyAI-powered transcription tool with speaker recognition, time-synced navigation, and polished document exports. Intuitive, fast, and private.',
         url: 'https://audiscribe.vercel.app',
         siteName: 'Audiscribe',
         images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Audiscribe',
-        description: 'Free AI-powered transcription tool with speaker recognition, time-synced navigation, and polished document exports. Intuitive, fast, and private.',
+        description: 'Free AssemblyAI-powered transcription tool with speaker recognition, time-synced navigation, and polished document exports. Intuitive, fast, and private.',
         images: ['../../public/og-image.png'], 
     },
     robots: {
