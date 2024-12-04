@@ -27,7 +27,7 @@ function MobileNavBar() {
             <SheetContent side='top' className="w-svw rounded-lg bg-white backdrop-filter backdrop-blur-sm bg-opacity-30 border border-white/40">
                 <SheetHeader className="mb-5">
                     <SheetTitle className="text-center">
-                        <Link href="/" aria-label="Home" className={`${local.className} text-center antialiased text-23 tracking-wide text-accent-600 rounded-md outline-none focus-visible:outline-secondary-500`}>Audiscribe</Link>
+                        <Link onClick={() => setOpen(false)} href="/" aria-label="Home" className={`${local.className} text-center antialiased text-23 tracking-wide text-accent-600 rounded-md outline-none focus-visible:outline-secondary-500`}>Audiscribe</Link>
                     </SheetTitle>
                 </SheetHeader>
                     <nav>                
