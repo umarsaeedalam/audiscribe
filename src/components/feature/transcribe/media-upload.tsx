@@ -52,7 +52,7 @@ const MediaUpload = ({ files, setFiles }: Props) => {
                 }
 
                 .media-upload-filepond .filepond--item-panel {
-                    background-color: #FF6637;
+                    background-color: #FF7F50;
                     font-weight: 600;
                 }
 
@@ -60,6 +60,19 @@ const MediaUpload = ({ files, setFiles }: Props) => {
                 [data-filepond-item-state*='invalid'] .filepond--item-panel {
                     background-color: #DC143C;
                 }
+
+                @media (max-width: 1000px) {
+                    .media-upload-filepond .filepond--drop-label {
+                        font-size: 15px;
+                    }
+                }
+
+                @media (max-width: 700px) {
+                    .media-upload-filepond .filepond--drop-label {
+                        font-size: 14px;
+                    }
+                }
+
             `}</style>
         </div>
     );

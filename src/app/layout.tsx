@@ -59,7 +59,7 @@ export default function RootLayout({ children }: Readonly<{children: React.React
         <html lang="en">
             <body className={`${local.className} antialiased text-secondary-500`}>
                 <Providers>
-                    <div className="h-svh bg-flasko-gradient relative">
+                    <div className="h-dvh bg-flasko-gradient relative">
                         <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(255,245,238,1))]" />
                         
                         <div className="relative z-10 h-full overflow-auto">
@@ -69,7 +69,6 @@ export default function RootLayout({ children }: Readonly<{children: React.React
                         </div>
                     </div>
                 </Providers>
-                {/* {children} */}
             </body>
         </html>
     );

@@ -43,7 +43,7 @@ function TranscriptPage({ transcript, audioFile, setFiles, setStatus }: Props) {
     }
 
     return (
-            <section className="flex flex-col items-center mt-8 max-[1000px]:mt-6 max-[700px]:mt-4 pb-48 px-10 max-[1000px]:px-8 max-[700px]:px-6">
+            <section className="flex flex-col gap-4 max-[1000px]:gap-3 max-[700px]:gap-2 items-center mt-8 max-[1000px]:mt-6 max-[700px]:mt-4 pb-48 px-10 max-[1000px]:px-8 max-[700px]:px-6">
                 <div className="max-w-xxl w-full flex items-center justify-end gap-2">
                     <ExportTranscript utterances={transcript.utterances} />
 

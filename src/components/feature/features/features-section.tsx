@@ -10,7 +10,7 @@ function FeaturesSection() {
 
                 <div className='flex flex-col gap-10 max-[1000px]:gap-9 max-[700px]:gap-8'>
                     <div className='flex flex-col gap-8 max-[1000px]:gap-7 max-[700px]:gap-6'>
-                        <h2 className='text-accent-600 text-22 max-[1000px]:text-xl max-[700px]:text-19 font-semibold'>1. Intelligent Speaker Recognition with Custom Labels</h2>
+                        <h2 className='text-accent-600 text-lg max-[1000px]:text-md max-[700px]:text-17 font-semibold'>Intelligent Speaker Recognition with Custom Labels</h2>
 
                         <div className='flex flex-col gap-6 max-[1000px]:gap-5 max-[700px]:gap-4 text-17 max-[1000px]:text-base max-[700px]:text-15'>
                             <p>The advanced speaker diarization system doesn&apos;t just identify different speakers – it lets you make the transcript your own. While the AI automatically detects and labels different speakers in your audio, you have the power to customize these labels to match your needs.</p>
@@ -29,7 +29,7 @@ function FeaturesSection() {
                     </div>
 
                     <div className='flex flex-col gap-8 max-[1000px]:gap-7 max-[700px]:gap-6'>
-                        <h2 className='text-accent-600 text-22 max-[1000px]:text-xl max-[700px]:text-19 font-semibold'>2. Interactive Time-Synced Navigation</h2>
+                        <h2 className='text-accent-600 text-lg max-[1000px]:text-md max-[700px]:text-17 font-semibold'>Interactive Time-Synced Navigation</h2>
 
                         <div className='flex flex-col gap-6 max-[1000px]:gap-5 max-[700px]:gap-4 text-17 max-[1000px]:text-base max-[700px]:text-15'>
                             <p>Experience seamless integration between your audio and transcript with the built-in advanced navigation system. Every word in your transcript is precisely time-synced with the original audio, creating an interactive document that brings new efficiency to your workflow.</p>
@@ -48,7 +48,7 @@ function FeaturesSection() {
                     </div>
 
                     <div className='flex flex-col gap-8 max-[1000px]:gap-7 max-[700px]:gap-6'>
-                        <h2 className='text-accent-600 text-22 max-[1000px]:text-xl max-[700px]:text-19 font-semibold'>3. Professional Document Export</h2>
+                        <h2 className='text-accent-600 text-lg max-[1000px]:text-md max-[700px]:text-17 font-semibold'>Professional Document Export</h2>
 
                         <div className='flex flex-col gap-6 max-[1000px]:gap-5 max-[700px]:gap-4 text-17 max-[1000px]:text-base max-[700px]:text-15'>
                             <p>Transform your transcripts into polished, ready-to-use Word documents with the built-in export feature. Unlike basic text exports, our system generates professionally formatted documents that maintain all the crucial elements of your transcript.</p>

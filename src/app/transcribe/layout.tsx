@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 function TranscribeLayout({ children }: Props) {
     return (
-        <div className="min-h-[calc(100vh-88px)] max-[640px]:min-h-[calc(100vh-70px)] flex flex-col justify-between">
+        <div className="min-h-[calc(100dvh-88px)] max-[640px]:min-h-[calc(100dvh-70px)] flex flex-col justify-between">
             {children}
         </div>
     )

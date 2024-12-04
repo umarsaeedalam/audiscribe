@@ -69,8 +69,8 @@ const config: Config = {
                 21: '21px'
             },
             height: {
-                screenA: 'calc(100vh - 71.6px)',
-                screenB: 'calc(100vh - 66.2px)'
+                screenA: 'calc(100dvh - 71.6px)',
+                screenB: 'calc(100dvh - 66.2px)'
             },
             translate: {
                 35: '35.8px',

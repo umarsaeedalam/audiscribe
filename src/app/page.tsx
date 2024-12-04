@@ -12,11 +12,11 @@ function LandingPage() {
         
                 <div className="flex justify-center items-center gap-3 mt-2">
                     <Link href='/transcribe' className="outline-none focus-visible:outline-secondary-500 rounded-md">
-                        <button className="text-lg max-[1000px]:text-md max-[700px]:text-base w-32 max-[1000px]:w-30 max-[700px]:w-28 py-2 text-center bg-accent-600 hover:bg-accent-700 rounded-md text-primary-50 outline-none transition-all ease-in-out duration-200 transform active:scale-90">Transcribe</button>
+                        <button className="text-19 max-[1000px]:text-md max-[700px]:text-base w-32 max-[1000px]:w-30 max-[700px]:w-28 py-2 text-center bg-accent-600 hover:bg-accent-700 rounded-md text-primary-50 outline-none transition-all ease-in-out duration-200 transform active:scale-90">Transcribe</button>
                     </Link>
 
                     <Link href='/features' className="outline-none focus-visible:outline-accent-600 rounded-md">
-                        <button className="text-lg max-[1000px]:text-md max-[700px]:text-base w-32 max-[1000px]:w-30 max-[700px]:w-28 py-2 text-center bg-secondary-400 hover:bg-secondary-300 rounded-md text-primary-50 outline-none transition-all ease-in-out duration-200 transform active:scale-90">Features</button>
+                        <button className="text-19 max-[1000px]:text-md max-[700px]:text-base w-32 max-[1000px]:w-30 max-[700px]:w-28 py-2 text-center bg-secondary-400 hover:bg-secondary-300 rounded-md text-primary-50 outline-none transition-all ease-in-out duration-200 transform active:scale-90">Features</button>
                     </Link>
                 </div>
             </div>

@@ -64,7 +64,7 @@ function AudioPlayer({ audioURL, currentTime, setCurrentTime, audioRef, isPlayin
     };
 
     return (
-        <div className="fixed bottom-14 -left-2 max-[1300px]:left-0 right-0 w-full px-10 max-[1000px]:px-8 max-[700px]:px-6">
+        <div className="fixed bottom-10 max-[1000px]:bottom-8 max-[700px]:bottom-6 -left-2 max-[1300px]:left-0 right-0 w-full px-10 max-[1000px]:px-8 max-[700px]:px-6">
             <div className='max-w-xxl w-full mx-auto'>
                 <div className='bg-white rounded-md p-6 backdrop-filter backdrop-blur-sm bg-opacity-40 border border-white/40'>
                     <audio ref={audioRef} src={audioURL} onTimeUpdate={handleTimeUpdate} onLoadedMetadata={handleLoadedMetadata} />
