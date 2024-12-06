@@ -25,7 +25,7 @@ const classNames = {
 const formSchema = z.object({
     documentName: z.string()
         .min(1, "Document name cannot be empty")
-        .max(30, "Document name cannot exceed 30 characters")
+        .max(80, "Document name cannot exceed 80 characters")
         .refine(
             (value) => value.trim().length > 0 && /[a-zA-Z]/.test(value),
             "Document name must contain at least one letter"
