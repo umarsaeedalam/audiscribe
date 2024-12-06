@@ -14,7 +14,7 @@ function NavBar() {
     const pathname = usePathname()
 
     return (
-        <header className="sticky top-0 rounded-lg pt-4 max-[1000px]:pt-3 z-50">
+        <header className="top-0 rounded-lg pt-4 max-[1000px]:pt-3 z-50">
             <nav className="flex mx-10 max-[1000px]:mx-8 max-[700px]:mx-6 py-2 px-4 max-[1000px]:px-3 max-[1000px]:text-15 justify-start max-[700px]:justify-between items-center rounded-md bg-white backdrop-filter backdrop-blur-sm bg-opacity-40 border border-white/40">
                 <Link href="/" aria-label="Home" className={`${local.className} text-center mt-1 max-[700px]:mt-0  max-[700px]:mb-1 antialiased text-2xl max-[1000px]:text-23 max-[700px]:justify-between tracking-wide text-accent-600 rounded-md outline-none focus-visible:outline-secondary-500`}>Audiscribe</Link>
         
