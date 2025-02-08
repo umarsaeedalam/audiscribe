@@ -33,3 +33,19 @@ body > div {
 .underline-except-last::last-letter {
     text-decoration: none;
 }
+
+:root {
+    color-scheme: only light;
+  }
+  
+  html {
+    forced-color-adjust: none;
+    -ms-high-contrast: none;
+    -webkit-forced-color-adjust: none;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    html {
+      filter: none !important;
+    }
+  }

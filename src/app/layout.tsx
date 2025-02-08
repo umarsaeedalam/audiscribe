@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
-import NavBar from "@/components/layout/navbar";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
@@ -63,8 +62,6 @@ export default function RootLayout({ children }: Readonly<{children: React.React
                         <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(255,245,238,1))]" />
                         
                         <div className="relative z-10">
-                            <NavBar />
-                            
                             {children}
                         </div>
                     </div>

@@ -30,16 +30,21 @@ function MobileNavBar() {
                         <Link onClick={() => setOpen(false)} href="/" aria-label="Home" className={`${local.className} text-center antialiased text-23 tracking-wide text-accent-600 rounded-md outline-none focus-visible:outline-secondary-500`}>Audiscribe</Link>
                     </SheetTitle>
                 </SheetHeader>
-                    <nav>                
-                        <ul className="flex flex-col gap-4 justify-center items-stretch w-full text-primary-900 text-15">
-                            <li className="flex justify-center" onClick={() => setOpen(false)}><Link href="/transcribe" className={`${(pathname === '/transcribe') ? 'underline text-accent-600': ''}  hover:underline underline-offset-4 transition-colors ease-in-out duration-200 rounded-md outline-none focus-visible:outline-accent-600`}>Transcribe</Link></li>
+                <nav>                
+                    <ul className="flex flex-col gap-4 justify-center items-stretch w-full text-primary-900 text-15">
+                        <li className="flex justify-center" onClick={() => setOpen(false)}>
+                            <Link href="/transcribe" className={`${(pathname === '/transcribe') ? 'underline text-accent-600': ''}  hover:underline underline-offset-4 transition-colors ease-in-out duration-200 rounded-md outline-none focus-visible:outline-accent-600`}>Transcribe</Link>
+                        </li>
 
-                            <li className="flex justify-center" onClick={() => setOpen(false)}><Link href="/faq" className={`${(pathname === '/faq') ? 'underline text-accent-600': ''}  hover:underline underline-offset-4 transition-colors ease-in-out duration-200 rounded-md outline-none focus-visible:outline-accent-600`}>FAQs</Link></li>
+                        <li className="flex justify-center" onClick={() => setOpen(false)}>
+                            <Link href="/faq" className={`${(pathname === '/faq') ? 'underline text-accent-600': ''}  hover:underline underline-offset-4 transition-colors ease-in-out duration-200 rounded-md outline-none focus-visible:outline-accent-600`}>FAQs</Link>
+                        </li>
 
-                            <li className="flex justify-center" onClick={() => setOpen(false)}><Link href="/features" className={`${(pathname === '/features') ? 'underline text-accent-600': ''}  hover:underline underline-offset-4 transition-colors ease-in-out duration-200 rounded-md outline-none focus-visible:outline-accent-600`}>Features</Link></li>
-                        </ul>
-                    </nav>
-
+                        <li className="flex justify-center" onClick={() => setOpen(false)}>
+                            <Link href="/features" className={`${(pathname === '/features') ? 'underline text-accent-600': ''}  hover:underline underline-offset-4 transition-colors ease-in-out duration-200 rounded-md outline-none focus-visible:outline-accent-600`}>Features</Link>
+                        </li>
+                    </ul>
+                </nav>
             </SheetContent>
         </Sheet>
     )

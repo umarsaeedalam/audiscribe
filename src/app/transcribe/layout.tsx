@@ -1,4 +1,5 @@
 import Footer from "@/components/layout/footer";
+import NavBar from "@/components/layout/navbar";
 import type { Metadata } from "next";
 
 type Props = {
@@ -11,9 +12,11 @@ export const metadata: Metadata = {
 
 function TranscribeLayout({ children }: Props) {
     return (
-        <div className="min-h-[calc(100dvh-72px)] max-[1000px]:min-h-[calc(100dvh-66px)] flex flex-col justify-between">
-            {children}
-        </div>
+        <>
+            <div className="min-h-[calc(100dvh-72px)] max-[1000px]:min-h-[calc(100dvh-66px)] flex flex-col justify-between">
+                {children}
+            </div>
+        </>
     )
   }
 
